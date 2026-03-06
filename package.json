@@ -1,0 +1,20 @@
+{
+  "name": "ri4",
+  "version": "1.0.0",
+  "description": "Atividade RI4 da disciplina de Programação Orientada a Objetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmlflavio/RI4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmlflavio/RI4/issues"
+  },
+  "homepage": "https://github.com/hmlflavio/RI4#readme"
+}
