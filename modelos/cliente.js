@@ -9,6 +9,8 @@ export default class Cliente {
     }
 
     get cpf() { return this.#cpf; }
+    get cpfUpper() {return this.#cpf.toUpperCase();}
+    get cpfLower() {return this.#cpf.toLowerCase();}
     get nomeUpper() { return this.nome.toUpperCase(); }
     get nomeLower() { return this.nome.toLowerCase(); }
 }

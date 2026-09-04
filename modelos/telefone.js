@@ -1,7 +1,7 @@
 export default class Telefone {
     constructor(ddd, numero) {
         this.ddd = ddd;
-        this.numero = numero;
+        this.numero = numero;//stream confessions ii
     }
     get dddUpper() { return this.ddd.toUpperCase(); }
     get dddLower() { return this.ddd.toLowerCase(); }

@@ -1,5 +1,3 @@
-//Dance_Or_Die
-
 import Endereco from '../modelos/endereco.js';
 import Telefone from '../modelos/telefone.js';
 import Cliente from '../modelos/cliente.js';
@@ -19,7 +17,6 @@ const dadosClientes = [
 ];
 
 dadosClientes.forEach(dados => {
-    // Definindo a cidade como São José dos Campos
     const end = new Endereco('SP', 'São José dos Campos', dados.rua, dados.num);
     const cliente = new Cliente(dados.nome, '111.111.111-11', end);
     cliente.telefones.add(new Telefone(dados.ddd, dados.tel));
